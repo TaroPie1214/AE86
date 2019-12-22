@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style type="text/css">
+
+body {background-color:purple}
+
+h2 {color：purple}
+
+</style>
+
+<meta http-equiv="refresh" content="30">
+
+<meta name="KLGR" content="Runoob">
+
+<meta charset="utf-8">
+
+<title>格兰帕小车</title>
+
+</head>
+
+
+
+<body>
+
+ 
+
+<div id="container" style="width:500px">
+
+
+
+<div id="header" style="background-color:#FFA500;">
+
+<h1 style="margin-bottom:0;"><strong>格兰帕小车</strong></h1></div>
+
+<h3>Grandpa is Always the best choice.</h3>
+
+
+
+<div id="menu" style="background-color:#FFD700;height:1000px;width:100px;float:left;">
+
+<b>菜单</b><br><hr>
+
+远程遥控<br><hr>
+
+人脸识别<br><hr>
+
+环境监测<br><hr>
+
+智能寻踪<br><hr>
+
+更多<br>
+
+
+
+</div>
+
+
+
+<div id="content" style="background-color:#EEEEEE;height:1000px;width:400px;float:left;">
+
+<p>
+
+<img src="sth1.jpg" alt="小车外观" width="220" height="160"></p>
+
+<br>
+
+
+
+
+
+
+
+<h2>情景1：远程遥控</h2>
+
+<hr>
+
+
+
+<em>该部分通过网页端远程遥控小车来实现格兰帕的运动。</em>
+
+<br>
+
+
+
+<button type="submit" onclick="btnAction()">前进</button> 
+
+<script>     
+
+    function btnAction() {
+
+    $writeFilePath = "C:\inetpub\wwwroot\1.txt";    
+
+    $fp = fopen($writeFilePath,'a');        
+
+    $str = "sdfffffffffffff-----------ffffffffffffffffffffffff";      
+
+    $writeSuccess = fwrite($fp,$str);      
+
+         fclose($fp);
+
+}
+
+</script>
+
+
+
+
+
+
+
+<br>
+
+<button type="button">左转</button> <br>
+
+<button type="button">右转</button> <br>
+
+<button type="button">后退</button> <br>
+
+<button type="button">左后退</button> <br>
+
+<button type="button">右后退</button> <br>
+
+<em>1:左转 2：前进 3：右转 4： 左后退 5：后退 6：右后退 7：快左后退 8：停车 9：快右后退</em>
+
+<br>
+
+<form action="number1.php" method="post">
+
+设置值: <input type="text" name="fname">
+
+<input type="submit" value="提交">
+
+</form>
+
+<br>
+
+<h2>情景2：环境监测</h2>
+
+<hr>
+
+<table border="1">
+
+    <tr>
+
+        <th>Header 1</th>
+
+        <th>Header 2</th>
+
+    </tr>
+
+    <tr>
+
+        <td>row 1, cell 1</td>
+
+        <td>row 1, cell 2</td>
+
+    </tr>
+
+    <tr>
+
+        <td>row 2, cell 1</td>
+
+        <td>row 2, cell 2</td>
+
+    </tr>
+
+</table>
+
+<br>
+
+<em>通过AprilTag的获取与读取来实现跟随行走。</em>
+
+<br>
+
+<h2>情景3：人脸识别</h2>
+
+<hr>
+
+<em>先进的人脸识别算法将不可能变为可能。</em>
+
+<br>
+
+
+
+<a href="https://www.oursparkspace.cn/">更多请见此网页</a>
+
+<br>
+
+
+
+<dfn>定义项目</dfn><br>
+
+<code>计算机输出</code>
+
+<br />
+
+<kbd>键盘输入</kbd>
+
+<br />
+
+<tt>打字机文本</tt>
+
+<br />
+
+<samp>计算机代码样本</samp>
+
+<br />
+
+<var>计算机变量</var>
+
+<br />
+
+<br><br>
+
+
+
+
+
+<button type="button" onclick="alert('欢迎！')">点我!</button>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+
+格兰帕团队@515猛男</div>
+
+
+
+
+
+</body>
+
+</html>
